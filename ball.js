@@ -2,7 +2,7 @@ class Ball extends BaseClass{
     constructor(x,y){
       var options = {isStatic:false}
       super(x,y,50,50,options);
-      this.image = loadImage("sprites/paper.png");
+      this.image = loadImage("paper.png");
     }
   }
 
